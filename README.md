@@ -12,12 +12,12 @@ pip install git+https://github.com/Pyxis-Cognitive-Solutions/logging_middleware
 
 ## Usage
 
-1. Add `logging_middleware.middleware.LoggingMiddleware` to the `MIDDLEWARE` list in your Django settings:
+1. Add `logging_middleware.JsonLoggingMiddleware` to the `MIDDLEWARE` list in your Django settings:
 
 ```python
 MIDDLEWARE = [
     ...
-    'logging_middleware.middleware.LoggingMiddleware',
+    'logging_middleware.JsonLoggingMiddleware',
     ...
 ]
 ```
